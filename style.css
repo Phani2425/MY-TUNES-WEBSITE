@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif ;
+}
+
+.wrapper{height: 100%;
+        width: 100%;
+   }
+
+.navigation{
+    background-color: rgb(32, 28, 117);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 110px;
+    position: sticky;
+   
+}    
+
+
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.title{color: white;
+font-size: 1.4rem;}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.heroimage{width: 100vw;}
+#img1{
+    width: 100vw;
+    position: relative;
+}
+
+.herotext{position: absolute;
+top: 530px;
+left: 30px;
+padding: 0px 290px;
+text-align: justify;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+gap: 40px;
+}
+
+#head,#head2,#p1{color: white;}
+
+#head{font-size: 5.1rem;}
+#head2{font-size: 1.9rem;}
+#p1{font-size: 1.2rem;
+text-align: center;}
+
+.music{background-color: rgb(40, 17, 84);
+width: 100vw;
+display: flex;
+flex-direction: column;
+justify-content:flex-start;
+align-items: center;
+gap: 40px;
+padding: 40px 290px;
+text-align: center;
+height: 910px;
+position: relative;
+}
+
+i{color: white;
+font-size: 2.8rem;}
+
+h2,h3,p{color: white;}
+
+.h2{font-size: 3.3rem;}
+.h3{font-size: 1.7rem;font-weight: 600;}
+.p2{font-size: 1.05rem;font-weight: 530;}
+.p3{font-weight: 200;}
+
+.button{padding: 18px 10px;
+background-color: red;
+color: white;
+font-size: 1.1rem;
+box-shadow: 2px 2px 20px black;
+border-radius: 5px;
+transition-property: all;
+transition-duration: 0.6s;}
+
+.button:hover {transform: scale(1.16);}
+
+.img2{position: absolute;
+top: 530px;}
+
+.mytunes{padding: 400px 200px 60px 200px;
+width: 100vw;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+gap: 60px;
+}
+
+.heading3,.para{color: black;}
+
+.heading3{font-size: 1.7rem;
+font-weight: 600;}
+.para{font-size: 1.2rem;
+text-align: center;
+font-weight: 390;}
+
+.button2{padding: 15px;
+background-color: rgb(67, 26, 143);
+color: white;
+font-size: 1.1rem;
+box-shadow: 2px 2px 20px black;
+border-radius: 5px;
+transition-property: all;
+transition-duration: 0.6s;
+}
+
+.button2:hover {transform: scale(1.16);}
+
+.img3{width: 100vw;
+position: relative;}
+
+.videotext{position: absolute;
+top: 3660px;
+padding: 210px;}
+
+.heading4{font-size: 1.8rem;
+    font-weight: 600;
+text-align: center;}
+
+.para2{font-size: 1.2rem;
+    text-align: center;
+    font-weight: 390;}
+
+
+.gift{width: 100vw;
+padding: 90px 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;}
+
+.gifttxt{display: flex;
+flex-direction: column;
+gap: 25px;
+justify-content: flex-start;
+align-items: flex-start;}
+
+.giftcard,.para3,.para4{color: black;}
+
+.giftcard{font-size: 1.6rem;
+    font-weight: 600;}
+
+.para3,.para4{font-size: 1.05rem;
+    font-weight: 420;}
+
+.separator{width: 100%;
+    border: 1px solid black;
+align-self: center;}
+
+.button3{padding: 10px;
+    background-color: rgb(77, 50, 126);
+    color: white;
+    font-size: 1.1rem;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.6s;}
+
+    .button3:hover {transform: scale(1.16);}
+
+    .links{
+        background-color: rgb(40, 17, 84);
+        width: 100vw;
+        padding: 15px 90px;
+        display: flex;
+        justify-content: space-around;
+         }
+
+         .shop,.orange,.Education,.about{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;}
+
+.linkhead{font-size: 1.1rem;
+    font-weight: 600;
+color: white;}
+
+            .separator2{width: 100%;
+                border: 1px solid white;
+            align-self: center;}
+
+.foot{width: 100vw;
+    padding: 14px;
+background-color: rgb(71, 18, 169) ;
+align-content: center;}
+
+.footer{text-align: center;
+font-size: 1.1rem;
+font-weight: 400;}
+
